@@ -76,7 +76,7 @@ sns.distplot(combined_data['Weight'])
 
 #finding the correlation in the dataset
 
-correlation = combined_data.corr()
+correlation = combined_data.corr(numeric_only=True)
 
 #constructing a heat map to understand the correlation
 
