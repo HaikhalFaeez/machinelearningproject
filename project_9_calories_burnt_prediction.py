@@ -64,15 +64,15 @@ sns.countplot(combined_data['Gender'])
 
 #plotting the distribution of age
 
-sns.distplot(combined_data['Age'])
+sns.displot(combined_data['Age'])
 
 #plotting the distribution of height
 
-sns.distplot(combined_data['Height'])
+sns.displot(combined_data['Height'])
 
 #plotting the distribution of weight
 
-sns.distplot(combined_data['Weight'])
+sns.displot(combined_data['Weight'])
 
 #finding the correlation in the dataset
 
